@@ -34,7 +34,7 @@ nav a {
 }
 
 .hero {
-  background: url('https://images.unsplash.com/photo-1581090700227-1e7b1c7c6c3e') center/cover no-repeat;
+  background: url('/assets/construction-site.jpg') center/cover no-repeat;
   color: white;
   padding: 100px 0;
   text-align: center;
