@@ -34,7 +34,7 @@ nav a {
 }
 
 .hero {
-  background: url('/assets/construction-site.jpg') center/cover no-repeat;
+  background: url('../assets/construction-site.jpg') center/cover no-repeat;
   color: white;
   padding: 100px 0;
   text-align: center;
