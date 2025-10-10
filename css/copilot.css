@@ -28,10 +28,21 @@ nav ul {
   gap: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 nav a {
   color: white;
   text-decoration: none;
 }
+
+
 
 .hero {
   background: url('../assets/construction-site.jpg') center/cover no-repeat;
