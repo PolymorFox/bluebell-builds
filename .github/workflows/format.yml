@@ -24,11 +24,11 @@ jobs:
 
       - name: Install formatters
         run: |
-          pip install htmlbeautifier cssbeautifier
+          pip install html5print cssbeautifier
 
       - name: Format HTML files
         run: |
-          find . -name "*.html" -exec htmlbeautifier -r {} \;
+          find . -name "*.html" -exec html5print -o {} {} \;
 
       - name: Format CSS files
         run: |
