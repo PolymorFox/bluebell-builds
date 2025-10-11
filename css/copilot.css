@@ -1,3 +1,4 @@
+/* Base body styles */
 body {
   background: #F5F5F5;
   color: #222;
@@ -6,12 +7,14 @@ body {
   padding: 0;
 }
 
+/* Container for layout */
 .container {
   width: 90%;
   max-width: 1200px;
   margin: auto;
 }
 
+/* Header styles */
 header {
   background: #222;
   color: #FFB800;
@@ -22,6 +25,7 @@ header h1 {
   color: #FFB800;
 }
 
+/* Navigation styles */
 nav ul {
   list-style: none;
   padding: 0;
@@ -40,6 +44,7 @@ nav a:hover {
   color: #FF6600;
 }
 
+/* Hero section with banner image */
 .hero {
   background-image: url('../assets/banner.jpg');
   background-size: cover;
@@ -51,6 +56,7 @@ nav a:hover {
   position: relative;
 }
 
+/* Section styles for services, projects, contact */
 .services, .projects, .contact {
   background: #fff;
   margin: 2rem 0;
@@ -59,16 +65,19 @@ nav a:hover {
   box-shadow: 0 2px 8px rgba(34,34,34,0.05);
 }
 
+/* Section headings */
 .services h2, .projects h2, .contact h2 {
   color: #FF6600;
 }
 
+/* Flex layouts for service and project lists */
 .service-list, .project-gallery {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
 }
 
+/* Individual service and project cards */
 .service, .project {
   background: #FFB800;
   color: #222;
@@ -79,6 +88,7 @@ nav a:hover {
   box-shadow: 0 1px 4px rgba(34,34,34,0.08);
 }
 
+/* Footer layout: info left, image right */
 .footer-flex {
   display: flex;
   justify-content: space-between;
@@ -90,12 +100,14 @@ nav a:hover {
   flex: 1 1 300px;
 }
 
+/* Footer image styling */
 .footer-image img {
   max-width: 120px;
   height: auto;
   display: block;
 }
 
+/* Footer base styles */
 footer {
   background: #222;
   color: #FFB800;
@@ -104,6 +116,7 @@ footer {
   margin-top: 2rem;
 }
 
+/* Link styles */
 a {
   color: #FF6600;
 }
