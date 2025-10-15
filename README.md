@@ -1,3 +1,3 @@
-# bluebull-builds
+# bluebell-builds
 
-A basic website for class decoration
+A simple website designed for my class decoration

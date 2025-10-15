@@ -82,6 +82,29 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
+/* Gallery container: horizontal scroll for overflow, flexible images */
+.gallery,
+.gallery-row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center; /* Add this line */
+    overflow-x: auto;
+    padding: 1rem 0;
+    /* Remove flex-wrap: nowrap for better responsiveness */
+}
+
+/* Gallery images: consistent sizing, responsive */
+.gallery img,
+.gallery-row img {
+    max-width: 80vw;   /* Images can be up to 80% of viewport width */
+    width: 100%;       /* Fill the container width */
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(34, 34, 34, 0.08);
+    flex-shrink: 0;
+}
+
 /* Individual service and project cards */
 .service,
 .project {
