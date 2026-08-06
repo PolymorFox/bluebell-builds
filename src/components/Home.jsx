@@ -1,4 +1,3 @@
-import "../css/main.css"
 import Header from "./Header.jsx"
 import Hero from "./Hero.jsx"
 import Services from "./Services.jsx"
@@ -8,8 +7,8 @@ import Footer from "./Footer.jsx"
 
 function Home() {
   return (
-    <>
-      <Header/>
+    <div className="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-amber-500 selection:text-slate-950">
+      <Header />
       <main>
         <Hero />
         <Services />
@@ -17,7 +16,7 @@ function Home() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 
